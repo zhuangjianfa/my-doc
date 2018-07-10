@@ -1,0 +1,13 @@
+# 文件读取与存储配置
+java:
+    doc:
+     # 接口文件位置,可是文件夹,可是指定类
+     servicePath: C:/Users/zhuangjianfa/git/owner-act/owner-act-aggregate-spi/src/main/java/com/owner/act/aggregate/spi/client
+     # 参数文件位置
+     requestPath: C:/Users/zhuangjianfa/git/owner-act/owner-act-aggregate-spi/src/main/java/com/owner/act/aggregate/spi/req
+     # 返回结果集位置
+     responsePath: C:/Users/zhuangjianfa/git/owner-act/owner-act-aggregate-spi/src/main/java/com/owner/act/aggregate/spi/resp
+     # 生成文件存储路径,所有方法一个文件会放在此路径加接口名的文件夹下
+     targetPath: C:/Users/zhuangjianfa/Desktop/temp/
+     # 应用名称应配置的spring.application.name或eureka.client.RegistryRefreshSingleVipAddress
+     application: owner-act-service
